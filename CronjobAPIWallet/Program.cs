@@ -14,7 +14,7 @@ namespace CronjobAPIWallet
             while (true)
             {
                 string html = string.Empty;
-                # string url = @"http://127.0.0.1/Wallet/access_token.php";
+                string url = @"http://127.0.0.1/Wallet/access_token.php";
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.AutomaticDecompression = DecompressionMethods.GZip;
