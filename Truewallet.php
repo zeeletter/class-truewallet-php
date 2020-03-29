@@ -95,11 +95,11 @@ class TrueWalletClass {
 	public function getTimestamp() {
 		return round(microtime(true) * 1000);
 	}
-    public function hashPassword($username, $password, $time) {
-        $a = hash('sha256', $username . $password);
-        $b = hash('sha256', (strlen($time) > 4) ? substr($time, 4) : $time);
-        return hash('sha256', $b . $a);
-    }
+    	public function hashPassword($username, $password, $time) {
+        	$a = hash('sha256', $username . $password);
+        	$b = hash('sha256', (strlen($time) > 4) ? substr($time, 4) : $time);
+        	return hash('sha256', $b . $a);
+    	}
 	public function RequestLoginOTP () {
 		if (!isset($this->credentials["username"]) || !isset($this->credentials["password"]) || !isset($this->credentials["type"])) return false;
 		$timestamp = $this->getTimestamp();
