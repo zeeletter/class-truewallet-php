@@ -37,7 +37,7 @@
   $tw = new TrueWalletClass($phone, $password);
   $tw->setAccessToken($access_token);
   $data = $tw->GetProfile();
-  print_r($data["code"]);
+  print($data["code"]);
 ?>
 ```
 
