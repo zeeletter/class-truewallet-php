@@ -28,7 +28,7 @@
 
 # Example Cronjob Windows
 - เเก้ไข Url [ตรงนี้](https://github.com/ekkamon/class-truewallet-php/blob/master/CronjobAPIWallet/Program.cs) บรรทัด: 17
-- เเก้ไข Loop Time [ตรงนี้](https://github.com/ekkamon/class-truewallet-php/blob/master/CronjobAPIWallet/Program.cs) บรรทัด: 39
+- เเก้ไข Loop Time [ตรงนี้](https://github.com/ekkamon/class-truewallet-php/blob/master/CronjobAPIWallet/Program.cs) บรรทัด: 39 // 1000 = วินาที
 
 #### access_token.php
 ```php
