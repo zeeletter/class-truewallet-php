@@ -1,5 +1,5 @@
 # Truemoney Wallet Class
-โครง Class ตัวนี้นำมาจาก likecyber | Parameters เเละ URL ตัวนี้นำมาจาก chick4nnn
+- สำคัญมากๆจำเป็นต้อง
 
 # Variable
 - $phone    // เบอร์ทรูมันนี่วอลเลท
@@ -43,3 +43,4 @@
 # Help my Truemoney Wallet Class .-.
 - โครง Class ตัวนี้นำมาจาก [likecyber](https://github.com/likecyber)
 - Parameters เเละ URL ตัวนี้นำมาจาก [chick4nnn](https://gist.github.com/chick4nnn/0b070c673f7977c42db5fd499055d28f)
+- เเนวทางเลี้ยง access_token ตัวนี้นำมาจาก [Manatchai Roengtum](https://www.facebook.com/iceyboy.kung)
