@@ -36,7 +36,8 @@
   require "Truewallet.php";
   $tw = new TrueWalletClass($phone, $password);
   $tw->setAccessToken($access_token);
-  print_r($tw->GetProfile());
+  $data = $tw->GetProfile();
+  print_r($data["code"]);
 ?>
 ```
 
