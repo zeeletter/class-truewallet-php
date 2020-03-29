@@ -1,5 +1,5 @@
 # Truemoney Wallet Class
-- สำคัญมากๆจำเป็นต้อง
+- สำคัญมากๆจำเป็นต้อง Cronjob มาที่ access_token.php ตลอดเวลา เพื่อทำให้ access_token ไม่ตาย !
 
 # Variable
 - $phone    // เบอร์ทรูมันนี่วอลเลท
